@@ -1,0 +1,12 @@
+Main goal of the project is to learn the concepts of Modern C++
+In this project, App for maintaining a customer database and their purchase history for points awarding is created in C++.
+Functional requirements:
+1. Add a user to a database with phone number as unique identifier
+2. Display all the users
+3. Add purchase for the user
+4. Calculate points for their purchase and add to the user
+
+
+Advanced Features:
+1. For hotel application:
+    -- Tracker the order status: items ordered, served and billing
