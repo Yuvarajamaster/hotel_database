@@ -1,5 +1,6 @@
 #include<string>
 #include<array>
+#include<vector>
 
 using namespace std;
 
@@ -17,4 +18,34 @@ struct UserMain
         int amount;
     };
 };
+
+class Users{
+    public:
+        Users();
+        void setName(const string& name);
+        const string& getName();
+        void setId(const int id);
+        const int getId();
+        void incPurchases();
+
+    private:   
+        string uName;
+        int uniq_id;
+        int num_of_purchases;
+};
+
+class UserData
+{
+    public:
+        UserData();
+        void create_user(const string& userName, const int& id);
+        void display_user(const int& usr_id);
+        void puchaseMade(const int& id);
+        int getTotalUsers();
+        bool searchUser(const int id);
+    
+    private:
+        vector<Users> TotalUsers;
+};
+
 

@@ -4,5 +4,5 @@
 
 using namespace std;
 
-array<string,4> menu = {"Display All UserNames", "Add a new User", "Add Purchase", "Exit"};
+const array<string,4> menu = {"Display a User", "Add a new User", "Add Purchase", "Exit"};
 
